@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Others/Others.iml" filepath="$PROJECT_DIR$/Others/Others.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendar and timezone/calendar and timezone.iml" filepath="$PROJECT_DIR$/calendar and timezone/calendar and timezone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions in java/exceptions in java.iml" filepath="$PROJECT_DIR$/exceptions in java/exceptions in java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find max in java/find max in java.iml" filepath="$PROJECT_DIR$/find max in java/find max in java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integers/integers.iml" filepath="$PROJECT_DIR$/integers/integers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/methods.iml" filepath="$PROJECT_DIR$/methods/methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/the game/the game.iml" filepath="$PROJECT_DIR$/the game/the game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
+    </modules>
+  </component>
+</project>
