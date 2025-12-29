@@ -1,0 +1,5 @@
+TIME COMPLEXITY
+
+1. Drop the non-dominant terms
+2. Drop the constant terms 
+3. Break the code into fragments

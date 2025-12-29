@@ -1,0 +1,5 @@
+Arithmatic operators 
+logical operators
+bitwise operators
+assignment operators
+misc(miscelleneous) operators 

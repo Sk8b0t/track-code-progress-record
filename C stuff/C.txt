@@ -1,0 +1,7 @@
+C
+
+String: array of characters terminated by null character
+strings in c is created by creating an array of characters
+We need an extra character ('\0' or null character) to tell the compiler that the string ends here.
+// jab aap "" estemal krte ho toh compiler by default ek \0 laga deta h.
+null terminated character array.

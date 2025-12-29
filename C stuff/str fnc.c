@@ -1,0 +1,1 @@
+//strcat() , strlen() , strcmp() , strrev(), strcpy()

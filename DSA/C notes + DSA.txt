@@ -1,0 +1,25 @@
+WHAT IS STRUCTURE IN C:
+1. Structures are user defined data types in C
+2. Using structures allows us to combine data of different types together
+3. It is used to create a complex data type which contains diverse information
+4. They are very similar to arrays but structures can store data of any type which is practically more useful 
+                      (BASICALLY CUSTOM DATA TYPE)
+
+1. Structure members are accessed using dot[.] operator
+2. (.) is called as "Structure member operator"\
+3. To access the member of the structure, we use this operator in between "Structure name " and "member name". 
+
+                          DYNAMIC MEMORY ALLOCATION
+Dynamic memory allocation is a way i which the size of a data structure can be changed during the  runtime
+ Memory assigned to a program in a typical architrcture can be broken down into four segments:
+1. code
+2. Static/ global variables
+3. Stack
+4. Heap
+
+In dynamic memory allocation , the memory is allocated at runtime from heap segment.
+We have 4 functions tha help us achieve this task :
+1. malloc
+2. calloc
+3. realloc
+4. free
