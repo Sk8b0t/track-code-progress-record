@@ -1,0 +1,7 @@
+--- Content from file1.txt ---
+This is the first file.
+It has two lines.
+
+--- Content from file2.txt ---
+This is the second file.
+It also has two lines.
