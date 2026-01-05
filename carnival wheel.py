@@ -1,11 +1,11 @@
 t=int(input())
-for _ in range(t):
+for i in range(t):
     l,a,b=map(int,input().split())
-    amod,max=a,a
     lst=[]
-    while amod not in lst:
-        lst.append(amod)
-        if amod>max:
-            max=amod
-        amod=(amod+b)%l
+    pos,max=a,a
+    while pos not in lst:
+        lst.append(pos)
+        if pos>max:
+            max=pos
+        pos=(pos+b)%l
 print(max)
