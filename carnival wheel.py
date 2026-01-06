@@ -9,3 +9,4 @@ for i in range(t):
             max=pos
         pos=(pos+b)%l
 print(max)
+
