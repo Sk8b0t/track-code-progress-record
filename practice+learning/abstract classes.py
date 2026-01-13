@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 
 class Shape(ABC):
     @abstractmethod
+    def __repr__(self):
+        return "This is from shape class"
+    @abstractmethod
     def __init__(self):
         pass
 
@@ -17,6 +20,8 @@ class Rectangle(Shape):
 
     def area(self):
         return f"The area of rectangle is {self.len * self.br}"
+    def __repr__(self):
+        return "This is Rectangle class"
 
 
 if __name__ == '__main__':
