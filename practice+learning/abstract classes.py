@@ -27,3 +27,4 @@ class Rectangle(Shape):
 if __name__ == '__main__':
     r = Rectangle(6, 7)
     print(r.area())
+    print(r)
