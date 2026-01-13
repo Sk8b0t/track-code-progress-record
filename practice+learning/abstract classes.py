@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-
 class Shape(ABC):
     @abstractmethod
     def __repr__(self):
@@ -22,8 +21,9 @@ class Rectangle(Shape):
         return f"The area of rectangle is {self.len * self.br}"
     def __repr__(self):
         return "This is Rectangle class"
-
+#You cannot make objects of abstract classes
 
 if __name__ == '__main__':
     r = Rectangle(6, 7)
     print(r.area())
+    print(r)
