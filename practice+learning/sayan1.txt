@@ -1,0 +1,31 @@
+AllMethods <bound method Employee.AllMethods of <setters_and_property_decorators.Employee object at 0x000001CC6E29EE90>> 
+__class__ <class 'setters_and_property_decorators.Employee'> 
+__delattr__ <method-wrapper '__delattr__' of Employee object at 0x000001CC6E29EE90> 
+__dict__ {'fname': 'Sayan', 'lname': 'Biswas'} 
+__dir__ <built-in method __dir__ of Employee object at 0x000001CC6E29EE90> 
+__doc__ None 
+__eq__ <method-wrapper '__eq__' of Employee object at 0x000001CC6E29EE90> 
+__format__ <built-in method __format__ of Employee object at 0x000001CC6E29EE90> 
+__ge__ <method-wrapper '__ge__' of Employee object at 0x000001CC6E29EE90> 
+__getattribute__ <method-wrapper '__getattribute__' of Employee object at 0x000001CC6E29EE90> 
+__getstate__ <built-in method __getstate__ of Employee object at 0x000001CC6E29EE90> 
+__gt__ <method-wrapper '__gt__' of Employee object at 0x000001CC6E29EE90> 
+__hash__ <method-wrapper '__hash__' of Employee object at 0x000001CC6E29EE90> 
+__init__ <bound method Employee.__init__ of <setters_and_property_decorators.Employee object at 0x000001CC6E29EE90>> 
+__init_subclass__ <built-in method __init_subclass__ of type object at 0x000001CC6DEC6570> 
+__le__ <method-wrapper '__le__' of Employee object at 0x000001CC6E29EE90> 
+__lt__ <method-wrapper '__lt__' of Employee object at 0x000001CC6E29EE90> 
+__module__ setters_and_property_decorators 
+__ne__ <method-wrapper '__ne__' of Employee object at 0x000001CC6E29EE90> 
+__new__ <built-in method __new__ of type object at 0x00007FFD52359DF0> 
+__reduce__ <built-in method __reduce__ of Employee object at 0x000001CC6E29EE90> 
+__reduce_ex__ <built-in method __reduce_ex__ of Employee object at 0x000001CC6E29EE90> 
+__repr__ <method-wrapper '__repr__' of Employee object at 0x000001CC6E29EE90> 
+__setattr__ <method-wrapper '__setattr__' of Employee object at 0x000001CC6E29EE90> 
+__sizeof__ <built-in method __sizeof__ of Employee object at 0x000001CC6E29EE90> 
+__str__ <method-wrapper '__str__' of Employee object at 0x000001CC6E29EE90> 
+__subclasshook__ <built-in method __subclasshook__ of type object at 0x000001CC6DEC6570> 
+__weakref__ None 
+email Sayan.Biswas@iiitdmj.ac.in 
+fname Sayan 
+lname Biswas 

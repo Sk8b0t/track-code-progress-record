@@ -18,6 +18,12 @@ class Employee():
         self.fname = None
         self.lname = None
 
+    def AllMethods(self):
+        with open("sayannnn.txt","w") as f:
+            for item in dir(Employee):
+                f.write(item+"\n")
+
+
 
 if __name__ == '__main__':
     njr = Employee("Neymar", "Jr")
@@ -28,3 +34,12 @@ if __name__ == '__main__':
     print(njr.email)
     del njr.email
     print(njr.email)
+    skillf=Employee("Skill","F")
+    print(skillf.email)
+    o="pookie"
+    print(dir(o))
+    print(dir(skillf))
+    skillf.AllMethods()
+    import inspect
+    print(inspect.getmembers(skillf))
+    

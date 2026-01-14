@@ -9,7 +9,7 @@
 
 class User:
     def __init__(self,n):
-        self.name=n
+        self.username=n
 
     @property
     def username(self):
