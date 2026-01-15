@@ -1,19 +1,16 @@
-t=int(input())
+t = int(input())
 for _ in range(t):
-    n,k=map(int,input().split())
-    a=list(map(int,input().split()))
-    freq={}
-    for item in a:
-        if item not in freq:
-            freq[item]=1
-        else:
-            freq[item]+=1
-    i,miss=0,0
-    while(i<k):
-        if i not in freq:
-            miss+=1
-        i+=1
-    kcnt=0
-    if k in freq:
-        kcnt=freq[k]
-    print(miss if miss>kcnt else kcnt)
+    n, k = map(int, input().split())
+    a = list(map(int, input().split()))
+    a.sort()
+    kcnt=cnt=0
+    dup=-1
+    for item in a :
+        if item ==k:
+            kcnt+=1
+        if item<k:
+            if dup!=item:
+                cnt+=1
+                dup=item
+    print(max(k-cnt,kcnt))
+
