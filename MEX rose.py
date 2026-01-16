@@ -26,9 +26,7 @@ for _ in range(t):
 #             kcnt+=1
 #         if item<k:
 #             if item not in s:
-#                 set.add(item)
-                
-
+#                 set.add(item)                
 #     print(max(k-len(s),kcnt))
 
 #3 - using dictionary
