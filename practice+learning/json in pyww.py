@@ -17,3 +17,4 @@ with open("newfile.json","w") as f:
     
 #indent-> for spacing stuff
 #sort_keys-> for alphabetically sorting the keys
+
