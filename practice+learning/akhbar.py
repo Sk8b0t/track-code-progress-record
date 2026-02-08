@@ -12,13 +12,9 @@ if __name__ == '__main__':
     d=api.get_top_headlines(sources='bbc-news')
 
     with open("news.json","w") as f:
-        f.write(json.dumps(d,indent=4))
+         f.write(json.dumps(d,indent=4))
         
     for i in d["articles"]:
        if i['content']:
            read(i['content'])
     
-    
-    
-
-
