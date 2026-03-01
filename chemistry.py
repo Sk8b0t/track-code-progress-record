@@ -1,7 +1,7 @@
 t=int(input())
 while t:
     n,k=map(int,input().split())
-    s=input()
+    s=input().strip()
     freq=[0]*26
     for ch in s:
         freq[ord(ch)-ord('a')]+=1
