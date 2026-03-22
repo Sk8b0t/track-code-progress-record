@@ -1,2 +1,3 @@
-f2=Frame(root, borderwidth=6, height=50,width=433)
-# f2.pack(side=TOP)
+menubar2=Menu(root,tearoff=0)
+    # root.config(menu=menubar2)
+    # menubar2.add_cascade(label="Shit", menu=menubar)
