@@ -1,7 +1,13 @@
 from tkinter import *
-
+import tkinter.messagebox as tmsg
 def hello():
     print("say hello to menubars in tkinter")
+def kill():
+    a=tmsg.askyesno("Warning","Do you really want to Exit")
+    if a:
+        root.destroy()
+    
+
 if __name__ == "__main__":
     root=Tk()
     root.geometry("620x400")
@@ -14,7 +20,7 @@ if __name__ == "__main__":
     m1.add_command(label="Save All",command=hello)
     m1.add_separator()
     m1.add_command(label="Exit tab",command=hello)
-    m1.add_command(label="Quit",command=hello)
+    m1.add_command(label="Quit",command=kill)
     root.config(menu=menubar)
     
 
