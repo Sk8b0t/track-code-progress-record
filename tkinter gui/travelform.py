@@ -1,5 +1,4 @@
 from tkinter import *
-
 def write():
     with open("traveldetails.txt","a") as f:
         f.write(f"Name={userValue.get()}\n address={addressValue.get()}\n from={fromVal.get()}\n To={toVal.get()}\n Phone={phoneVal.get()}\n email={emailVal.get()}\n\n")
@@ -35,6 +34,8 @@ Entry(root,textvariable=emailVal).grid(row=6,column=3)
 foodService=IntVar()
 Checkbutton(text="Do you also want to book meals?",variable=foodService).grid(row=7,column=3)
 
-Button(root,text="Submit",command=write,bg="black",fg="orange",padx=1,relief=RAISED).grid(row=8,column=3)
+b1=Button(root,text="Submit",command=write,bg="black",fg="orange",padx=1,relief=RAISED)
+b1.grid(row=8,column=3)
+b1.bind('<Button-1>',quit)
 
 root.mainloop()
