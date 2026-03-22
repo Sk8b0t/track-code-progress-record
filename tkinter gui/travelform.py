@@ -1,11 +1,50 @@
 from tkinter import *
+import tkinter.messagebox as tsmc
 def write():
     with open("traveldetails.txt","a") as f:
         f.write(f"Name={userValue.get()}\n address={addressValue.get()}\n from={fromVal.get()}\n To={toVal.get()}\n Phone={phoneVal.get()}\n email={emailVal.get()}\n\n")
         print("form data successfully collected!!")
+def hello():
+    print("Hello Tkinter")
+
+def kill():
+    a=tsmc.askyesno("Warning","DO you really want to quit")
+    if a :
+        root.destroy()
+
 
 root=Tk()   
 root.geometry("400x400")
+menubar=Menu(root,tearoff=0)
+m1=Menu(menubar,tearoff=0)
+menubar.add_cascade(label="File",menu=m1)
+m1.add_command(label="Open File",command=hello)
+m1.add_command(label="Open Folder",command=hello)
+m1.add_separator()
+m2=Menu(m1,tearoff=0)
+m1.add_cascade(label="Save",menu=m2)
+m2.add_command(label="Save As",command=hello)
+m2.add_command(label="Save All",command=hello)
+m2.add_command(label="Just Save this",command=hello)
+m1.add_separator()
+m1.add_command(label="Quit",command=kill)
+root.config(menu=menubar)
+
+m3=Menu(menubar,tearoff=0)
+menubar.add_cascade(label="Edit",menu=m3)
+m3.add_command(label="Undo",command=hello)
+m3.add_command(label="Redo",command=hello)
+m3.add_separator()
+m3.add_command(label="Cut",command=hello)
+m3.add_command(label="Copy",command=hello)
+m3.add_command(label="Paste",command=hello)
+m3.add_separator()
+m4=Menu(m3,tearoff=0)
+m3.add_cascade(label="Appearance",menu=m4)
+m4.add_command(label="Full Screen",command=hello)
+m4.add_command(label="Zen Mode",command=hello)
+root.config(menu=menubar)
+
 Label(root,text="Welcome to the world of travelling",bg="black",fg="orange",font="comicsenems 12 bold").grid(row=0,column=3)
 Label(root,text="Name:").grid()
 userValue=StringVar()
