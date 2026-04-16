@@ -3,7 +3,7 @@ while t:
     n,k=map(int,input().split())
     a=list(map(int,input().split()))
     M=0
-    cnt=ans=wtf=0
+    cnt=ans=0
     for item in a :
         if item%2==0:
             cnt+=1
