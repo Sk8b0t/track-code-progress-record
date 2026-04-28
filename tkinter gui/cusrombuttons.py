@@ -30,4 +30,9 @@ b2.pack(fill=X)
 b3=Button(f1,text="this button doesnot work",fg="orange", bg="black")
 b3.pack(fill=X)
 
+b4=Button(f1,text="QUIT",fg="orange", bg="black",command=quit)
+b4.pack(fill=X)
+b4.bind('<Double-Button-1>',quit)
+
+
 root.mainloop()

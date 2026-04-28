@@ -13,7 +13,7 @@ def kill():
         root.destroy()
 
 
-root=Tk()   
+root=Tk() 
 root.geometry("400x400")
 menubar=Menu(root,tearoff=0)
 m1=Menu(menubar,tearoff=0)
