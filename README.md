@@ -27,7 +27,7 @@ Currently pursuing BTech at **IIITDM Jabalpur**.
 ## 🌱 Current Status
 
 Started in **1st Year, Semester 2**.
-
+**2nd Year, 3rd Semester from August**
 ## 🔥 Note
 
 Since each branch contains different content, make sure to switch branches to explore all work.
