@@ -15,7 +15,7 @@ Each branch is focused on a separate topic, language, or problem-solving area.
 
 I use this repository to:
 
-- Track my coding journey 📈  
+- Track my coding journey 📈    
 - Organize learning topic-wise 🧠  
 - Store practice code and experiments 💻  
 - Improve problem-solving skills ⚡  
@@ -27,7 +27,9 @@ Currently pursuing BTech at **IIITDM Jabalpur**.
 ## 🌱 Current Status
 
 Started in **1st Year, Semester 2**.
+
 **2nd Year, 3rd Semester from August**
+
 ## 🔥 Note
 
 Since each branch contains different content, make sure to switch branches to explore all work.
