@@ -30,7 +30,7 @@ while t:
 #         print(0)
 #     else:
 
-#         for i in range(len(s)+1):
+#         for i in range(len(s)):
 #             if s[i]=='1':
 #                 if zero>0:
 #                     zero-=1
