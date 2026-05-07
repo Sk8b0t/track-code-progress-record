@@ -1,2 +1,2 @@
-lst=[1,2,3,4,5]
-print(min(lst))
+import math
+print(math.ceil(6/5))
