@@ -17,7 +17,7 @@ while t:
         if a[i][0]<lowa:
             lowa=a[i][0]
         if a[i][1]<lowb:
-            lowb=a[i][1]
+            lowb=a[i][1]          
     print(sum-lowb+lowa)
 
     t-=1
