@@ -11,7 +11,7 @@ while t:
 
     lowa=a[0][0]
     lowb=a[0][1]
-
+    
     for i in range(n):
         sum+=a[i][1]
         if a[i][0]<lowa:
