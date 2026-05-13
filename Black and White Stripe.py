@@ -13,7 +13,4 @@ while t:
         m=min(m,pre[i+k]-pre[i])
     print(m)
 
-    
-    
-
     t-=1
