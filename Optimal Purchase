@@ -1,0 +1,10 @@
+t=int(input())
+while t:
+    n,a,b=map(int,input().split())
+    ac=a*n
+    r=n//3
+    rem=n%3
+    bc=(r*b)+min(rem*a,b)
+    print(min(ac,bc))
+
+    t-=1
