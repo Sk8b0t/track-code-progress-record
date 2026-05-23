@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 d = {
     "student_id": [
         101, 102, 103, 104, 105, 106, 107, 108, 109, 110,
@@ -27,7 +28,11 @@ d = {
 
 df=pd.DataFrame(d)
 print(df)
-print(df.head(10))
 print(df.describe())
-df.to_csv("student_data.csv")
-
+df.to_csv("student_data.csv",index=False)
+print(df.to_string(index=False))
+ser=pd.Series(np.random.rand(10))
+print(ser)
+df.to_numpy()
+print(df.columns)
+print(df.T)
