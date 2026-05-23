@@ -9,7 +9,7 @@ df.loc[:,["Average"]]=(df.loc[:,"Math"]+df.loc[:,"Physics"]+df.loc[:,"Chemistry"
 print(df)
 print("Topper marks:",df["Average"].max())
 print(df.sort_values(by="Average",ascending=False))
-abv=df.loc[(df['Math']>85) & (df["Physics"]>85) & (df["Chemistry"]>85)]
+abv=df[(df['Math']>85) & (df["Physics"]>85) & (df["Chemistry"]>85)]
 print("students above 85 marks in all subjects are:\n")
 print(abv)
 # df["Result"]="Pass" if df["Average"]>=75 else "Fail"

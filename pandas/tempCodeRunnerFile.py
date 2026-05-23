@@ -1,2 +1,1 @@
-df.loc[1]['A']="Sayan"
-print(df)
+s=df.groupby()
