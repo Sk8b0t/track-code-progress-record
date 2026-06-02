@@ -64,11 +64,11 @@ Entry(root,textvariable=toVal).grid(row=4,column=3)
 
 Label(root,text="Phone No:").grid(row=5)
 phoneVal=StringVar()
-Entry(root,textvariable=phoneVal).grid(row=5,column=3)
+Entry(root,textvariable=phoneVal,show="*").grid(row=5,column=3)
 
 Label(root,text="Email").grid(row=6)
 emailVal=StringVar()
-Entry(root,textvariable=emailVal).grid(row=6,column=3)
+Entry(root,textvariable=emailVal,show="*").grid(row=6,column=3)
 
 foodService=IntVar()
 Checkbutton(text="Do you also want to book meals?",variable=foodService).grid(row=7,column=3)
