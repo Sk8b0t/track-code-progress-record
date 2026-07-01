@@ -1,0 +1,22 @@
+import numpy as np
+
+lst = np.arange(1, 11)
+ar = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+print(ar.shape)
+print(ar[0,2])
+print("array=\n", ar)
+print(ar.sum(axis=0))
+print(ar.sum(axis=1))
+print("Transpose=\n", ar.T)
+for i in ar.flat:
+    print(i, end=" ")
+print("\nNo. of dimensions=", ar.ndim)
+print("size of array=", ar.size)
+print("max no. is at index=", ar.argmax())
+print("min no. is at index=", ar.argmin())
+print("min no. is at index for axis-1=", ar.argmin(axis=1))
+print("min no. is at index for axis-0=", ar.argmin(axis=0))
+print("sorted array index =", ar.argsort())
+print("square root=", np.sqrt(ar))
+print("sum of all the elements=",ar.sum())
+print("max in axis 0",ar.max(axis=0))
