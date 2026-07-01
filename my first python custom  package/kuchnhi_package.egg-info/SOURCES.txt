@@ -1,7 +1,0 @@
-license.txt
-setup.py
-kuchnhi_package/__init__.py
-kuchnhi_package.egg-info/PKG-INFO
-kuchnhi_package.egg-info/SOURCES.txt
-kuchnhi_package.egg-info/dependency_links.txt
-kuchnhi_package.egg-info/top_level.txt
