@@ -1,0 +1,15 @@
+Name=Sayan Biswas
+ address=Kalyani, West Bengal
+ from=Kurseong, North Bengal
+ To=Darjelling , North Bengal
+ Phone=8969101484
+ email=25bec107@iiitdmj.ac.in
+ 
+Name=Sukanta Kumar Biswas
+ address=Kathaltala , Kalyani Ghoshpara
+ from=Shalimar, Howrah
+ To=Jamshedpur , Jharkhand
+ Phone=8969101484
+ email=sayanbiswas0812@gmail.com
+
+

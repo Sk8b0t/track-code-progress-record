@@ -1,0 +1,10 @@
+n = "PDPM IIITDMJ"
+print(n[::-2])
+print(f"length of the word: {len(n)}")
+print(n.isalnum())
+print(n.isalpha())
+print(n.endswith("DMITRII"))
+print(n.count("I"))
+print(n.find("P"))
+print(n.lower())
+print(n.replace("I","i"))

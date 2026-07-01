@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Sarah Everard's mother says her daughter added to beauty of world",
+            "description": "Susan Everard pays tribute to her daughter Sarah Everard on the fifth anniversary of her murder.",
+            "url": "https://www.bbc.co.uk/news/articles/cm28xp0w7v3o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1e6a/live/8fe5fde0-1652-11f1-aa04-cda24f48bb3d.jpg",
+            "publishedAt": "2026-03-03T13:37:20.8378457Z",
+            "content": "Couzens was given a whole-life jail term at the end of his Old Bailey trial in September 2021, and the victim impact statement made by Sarah Everard's mother led to the unmasking of another predator \u2026 [+1193 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Richard Osman quits quiz show House of Games after 'amazing nine years'",
+            "description": "The novelist and presenter says: \"With the writing, there comes a point where you have to hand it over.\"",
+            "url": "https://www.bbc.co.uk/news/articles/cvg1j3zyl3do",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/47b5/live/fb4ed3e0-16f2-11f1-a694-e5c2b699acf9.jpg",
+            "publishedAt": "2026-03-03T12:37:23.1659423Z",
+            "content": "The general knowledge quiz airs on BBC Two on weekdays. \r\nOsman told his listeners: \"I've loved it. And of course I met my wife through it as well.\"\r\nHe is otherwise best known for his best-selling b\u2026 [+1345 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US-Israel war with Iran: OpenAI changes deal with US after backlash",
+            "description": "Chief Executive Sam Altman said the group would prohibit the use of its systems to spy on Americans.",
+            "url": "https://www.bbc.co.uk/news/articles/c3rz1nd0egro",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7073/live/0c673370-16f3-11f1-a694-e5c2b699acf9.jpg",
+            "publishedAt": "2026-03-03T12:22:24.5122017Z",
+            "content": "A statement made on Saturday by OpenAI claimed, external its agreement with the Pentagon had \"more guardrails than any previous agreement for classified AI deployments, including Anthropic's\".\r\nBut o\u2026 [+1419 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Why Europe's leaders have struggled to speak as one on Iran",
+            "description": "Why Europe's leaders have struggled to speak as one on Iran",
+            "url": "https://www.bbc.co.uk/news/articles/cn8z5zvlz5yo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9501/live/baa675c0-16e1-11f1-801d-ed3cff6bf876.jpg",
+            "publishedAt": "2026-03-03T12:07:31.4302201Z",
+            "content": "Politically, Europe is clearly struggling to find a united voice on the fast-paced dizzying developments in the Middle East.\r\nThe continent's Big Three, France, Germany and the UK, did manage to issu\u2026 [+1237 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Center Parcs right to roam restriction approved for Borders",
+            "description": "Restrictions at the site of its first Scottish holiday village will come into force in April.",
+            "url": "https://www.bbc.co.uk/news/articles/czx43r561w9o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c758/live/48febc90-d67f-11f0-b4a3-21322b24f057.jpg",
+            "publishedAt": "2026-03-03T12:07:27.7905045Z",
+            "content": "The right to responsible access is set out in the The Land Reform (Scotland) Act 2003.\r\nHowever, SBC has argued that its terms are not sufficient to meet the needs of Center Parcs which recently secu\u2026 [+737 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Alan Cumming: Bafta host apologises after 'trauma-triggering' show",
+            "description": "A Tourette's campaigner involuntarily shouted a racial slur while two black actors were on stage.",
+            "url": "https://www.bbc.co.uk/news/articles/cg5ng48qgn9o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/05ee/live/e08eb310-16eb-11f1-a08f-e920bb46cb87.jpg",
+            "publishedAt": "2026-03-03T12:07:22.5574379Z",
+            "content": "Cumming wrote: \"The only possible good that could come of this is a reminder that words matter, that rushing to judgement about things that we are not fully cognisant is folly, that all trauma should\u2026 [+1127 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Inside Peaky Blinders film premiere hailed a 'global phenomenon'",
+            "description": "The world premiere of Peaky Blinders: The Immortal Man took place in Birmingham to wild acclaim.",
+            "url": "https://www.bbc.co.uk/news/articles/cx24kggpj55o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/dee7/live/92c4b200-168d-11f1-801d-ed3cff6bf876.jpg",
+            "publishedAt": "2026-03-03T10:52:21.6500292Z",
+            "content": "Murphy, who delighted fans with a walkabout in Centenary Square on his arrival at Symphony Hall, paid tribute to the viewers who helped catapult Peaky Blinders into a worldwide hit.\r\n\"I just feel a l\u2026 [+501 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Oil and gas prices rise on new Iran threat to Gulf shipping",
+            "description": "Iranian official threatens to \"set fire\" to any ships passing through the crucial Strait of Hormuz.",
+            "url": "https://www.bbc.co.uk/news/articles/cr5lz0vgy52o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ce05/live/fa23a360-15cb-11f1-82b7-79a863688a9c.jpg",
+            "publishedAt": "2026-03-03T09:37:18.4590055Z",
+            "content": "The UK's FTSE 100 index opened down 1.4%, while Germany's Dax index was 1.7% lower.\r\nGas prices rose by a third to around 140p a therm. Higher gas prices could put pressure on household energy bills \u2026 [+2903 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Why did US and Israel attack Iran and how long could the war last?",
+            "description": "Iran has carried out strikes against Israel, across the Gulf and against a British base in Cyprus in retaliation.",
+            "url": "https://www.bbc.co.uk/news/articles/cx2dyz6p3weo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/eb4d/live/57511b80-163f-11f1-9120-a910fc22c6ac.jpg",
+            "publishedAt": "2026-03-03T07:22:23.9502208Z",
+            "content": "On Saturday, Trump said the attacks on Iran would \"continue, uninterrupted throughout the week or as long as necessary\", but has since suggested a longer time frame. \r\nThe US president told the New Y\u2026 [+1987 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Starmer at odds with Trump in biggest disagreement yet",
+            "description": "The prime minister told MPs that the government \"does not believe in regime change from the skies\".",
+            "url": "https://www.bbc.co.uk/news/articles/cy4wgpdllleo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/bd85/live/6aff0250-16a8-11f1-b048-c9424b2cf5fd.jpg",
+            "publishedAt": "2026-03-03T05:37:17.1237677Z",
+            "content": "Sir Keir Starmer took questions from MPs for around two-and-a-half hours, spelling out that he thought the American and Israeli actions were not right and implying there were not lawful either - but \u2026 [+1455 chars]"
+        }
+    ]
+}
