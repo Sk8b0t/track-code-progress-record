@@ -1,3 +1,0 @@
-Hello Python.
-This is lab 6.
-We are counting lines and characters.
