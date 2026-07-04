@@ -1,26 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 const int N=10e5+10;
-int hsh[N][26];
-int main (){
+int hsh[26][N];
+int main(){
     int t;
     cin>>t;
     while(t--){
-        for(int i=0;i<N;++i){
-            for(int j=0;j<26;++j){
+        int n,q;
+        cin>>n>>q;
+        for(int i=0;i<26;++i){
+            for(int j=0;j<=n;++j){
                hsh[i][j]=0;
             }
         }
-        int n,q;
-        cin>>n>>q;
         string s;
         cin>>s;
         for(int i=0;i<n;++i){
-            hsh[i+1][s[i]-'a']++;
+            hsh[s[i]-'a'][i+1]++;
         }
         for(int i=0;i<26;++i){
             for(int j=1;j<=n;++j){
-                hsh[j][i]+=hsh[j-1][i];
+                hsh[i][j]+=hsh[i][j-1];
             }
         }
         while(q--){
@@ -28,11 +28,13 @@ int main (){
             cin>>l>>r;
             int chr_cnt=0,odd_cnt=0;
             for(int i=0;i<26;++i){
-                chr_cnt=hsh[r][i]-hsh[l-1][i];
-                if (chr_cnt%2!=0) odd_cnt++;
+                chr_cnt=hsh[i][r]-hsh[i][l-1];
+                if(chr_cnt%2!=0) odd_cnt++;
             }
             if(odd_cnt>1) cout<<"NO"<<endl;
             else cout<<"YES"<<endl;
+        }
+
+        }
     }
-}
-}
+
