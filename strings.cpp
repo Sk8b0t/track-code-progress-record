@@ -10,4 +10,6 @@ int main(){
         getline(cin,s);
         cout<<s<<endl;
     }
-}
+   
+
+    }

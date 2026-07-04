@@ -1,0 +1,1 @@
+{"name":"Local: prefix_q2","url":"c:\\Users\\sayan\\Desktop\\GitHub\\track-code-progress-record\\prefix_q2.cpp","tests":[{"id":1783165591232,"input":"5 3\n1 2 100\n2 5 100\n3 4 100","output":"200"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sayan\\Desktop\\GitHub\\track-code-progress-record\\prefix_q2.cpp","group":"local","local":true}
