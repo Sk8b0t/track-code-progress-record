@@ -11,8 +11,7 @@ int main(){
         cout<<*it<<endl;
     }
     vector<pair<int,int>> a={{1,2},{2,3},{3,4}};
-    vector<pair<int,int>>::iterator i;
-    for(i=a.begin();i!=a.end();++i){
+    for(auto i=a.begin();i!=a.end();++i){
         cout<< (*i).first<<" "<<(*i).second<<endl;
         //or
         cout<< i->first<<" "<<i->second<<endl;
