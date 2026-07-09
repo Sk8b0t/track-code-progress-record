@@ -19,14 +19,9 @@ vector<int> nextGreaterElements(vector<int>& nums) {
         st.pop();
     }
     vector<int> ans;
-    for(int i=0;i<len;++i) {
+    for(int i=0;i<len;++i){
         if(ind[i]<0) ans.push_back(-1);
         else ans.push_back(nums[ind[i]]);
     }
     return ans;
-}
-int main(){
-    vector<int>v={1,2,3,4,3};
-    for(auto &item:nextGreaterElements(v)) cout<<item<<" ";
-
 }
