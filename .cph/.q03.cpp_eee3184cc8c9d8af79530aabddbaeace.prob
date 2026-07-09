@@ -1,0 +1,1 @@
+{"name":"Local: q03","url":"c:\\Users\\sayan\\Desktop\\GitHub\\track-code-progress-record\\q03.cpp","tests":[{"id":1783538763797,"input":"3\nEve 78\nBob 99\nAlice 78","output":"Bob 99\nAlice 78\nEve 78"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sayan\\Desktop\\GitHub\\track-code-progress-record\\q03.cpp","group":"local","local":true}
