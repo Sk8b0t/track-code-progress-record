@@ -1,0 +1,1 @@
+{"name":"Local: predicate_fnc","url":"c:\\Users\\sayan\\Desktop\\GitHub\\track-code-progress-record\\predicate_fnc.cpp","tests":[{"id":1784560099128,"input":"4 7\n20 15 10 17","output":"15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sayan\\Desktop\\GitHub\\track-code-progress-record\\predicate_fnc.cpp","group":"local","local":true}

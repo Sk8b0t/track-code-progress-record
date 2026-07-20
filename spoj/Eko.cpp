@@ -1,18 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define long long ll;
+using ll = long long;
 
 const int N=10e6+10;
-int trees[N];
-int m,n;
+ll trees[N];
+ll m,n;
 
 bool predicate(int h){
-    int wood=0;
+    ll wood=0;
     for(int i=0;i<n;++i){
         if(trees[i]>=h)
             wood+=(trees[i]-h);
     }
-    return (wood>=m);
+    return wood>=m;
 
 }
 void solve(){
@@ -20,7 +20,7 @@ void solve(){
     for(int i=0;i<n;++i){
         cin>>trees[i];
     }
-    int low=0,high=10e9,mid;
+    ll low=0,high=10e8,mid;
     while(high-low>1){
         mid=(high+low)/2;
         if(predicate(mid)) low=mid;

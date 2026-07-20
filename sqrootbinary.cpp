@@ -9,7 +9,7 @@ int main(){
         mid=(hi+low)/2;
         if(mid*mid<x) low=mid;
         else hi=mid;
-    }
+    }   
     cout<<low;
     
 }
