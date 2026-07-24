@@ -1,30 +1,40 @@
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
-const ll N=1e6+10;
-vector<bool>tprime(N,1);
+void solve(){
+    int n,q;
+    cin>>n;
+    vector<int>a(n);
+    for(auto &itm:a){
+        cin>>itm;
+    }
+    vector<int>pre(n+1,0);
+    for(int i=1;i<=n;++i){
+        pre[i]=pre[i-1]+a[i-1];
+    }
+    cin>>q;
+    while(q--){
+        int x;
+        cin>>x;
+        int low=1,high=n,mid;
+        while(low<=high){
+            mid=(low+high)/2;
+            if(pre[mid]>=x) high=mid-1;
+            else low=mid+1; 
+        }
+        cout<<high+1<<endl;
+ 
+}
+
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    vector<bool>isPrime(N,1);
-    isPrime[0]=isPrime[1]=false;
-    for(int i=2;i<N;++i){
-        if(isPrime[i]){
-            for(int j=2*i;j<N;j+=i){
-                isPrime[j]=false;
-            }
-        }
-    }
-    int n;
-    cin>>n;
-    vector<ll>x(n);
-    for(auto &itm:x) cin>>itm;
-    for(auto &itm:x){
-        ll sq=sqrt(itm);
-        if(sq*sq==itm && isPrime[sq]) cout<<"YES"<<"\n";
-        else cout<<"NO"<<"\n";
-        
-    }
-
+    solve();
     return 0;
 }
+
+
+
+
