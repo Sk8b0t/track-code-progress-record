@@ -1,40 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std;
-#define long long ll;
-
-const int N=10e6+10;
-int trees[N];
-int m,n;
-
-bool predicate(int h){
-    int wood=0;
-    for(int i=0;i<n;++i){
-        if(trees[i]>=h)
-            wood+=(trees[i]-h);
+int set_bits(int num){
+    int cnt=0;
+    int i=0;
+    while(num>1){
+        cnt+=num&1;
+        num=num<<0;
     }
-    return (wood>=m);
-
-}
-void solve(){
-    cin>>n>>m;
-    for(int i=0;i<n;++i){
-        cin>>trees[i];
-    }
-    int low=0,high=10e9,mid;
-    while(high-low>1){
-        mid=(high+low)/2;
-        if(predicate(mid)) low=mid;
-        else high=mid-1;
-    }
-    if(predicate(high)) cout<<high<<"\n";
-    else cout<<low<<"\n";
-
-
-
-}
-int main(){
-     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    solve();
-    
+    return cnt;
 }
