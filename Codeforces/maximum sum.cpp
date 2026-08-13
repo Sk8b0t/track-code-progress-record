@@ -9,9 +9,9 @@ void solve(){
         int n,k;
         cin>>n>>k;
         vector<ll>a(n);
+        vector<ll>pre(n,0);
         for(auto &itm:a) cin>>itm;
         sort(a.begin(),a.end());
-        vector<ll>pre(n,0);
         pre[0]=a[0];
         for(int i=1;i<n;++i){
             pre[i]=pre[i-1]+a[i];
@@ -22,8 +22,7 @@ void solve(){
             r=n-(k-i+1);
             l=2*i;
             sum=pre[r]-(l==0?0:pre[l-1]);
-            mx=max(mx,sum);
-            
+            mx=max(sum,mx);
         }
         cout<<mx<<endl;
     }
