@@ -10,35 +10,30 @@ void solve(){
         cin>>n;
         vector<int>a(n);
         for(auto &itm:a) cin>>itm;
-
-        int l=0,r=n-1;
-        int s=a[l],s1=a[r],mx=0;
+        int l=0,r=n-1,mx=0;
+        int s=a[l],s1=a[r];
         while(r>l){
             if(s==s1){
-                mx=l+1+(n-r);
-                l++;
+                mx=l+1+n-r;
+                ++l;
                 s+=a[l];
             }
             if(s1>s){
-                l++;
-                s+=a[l];   
+                ++l;
+                s+=a[l];
             }
             else{
-                r--;
+                --r;
                 s1+=a[r];
-            }  
-            }
-            cout<<mx<<endl;
-
             }
         }
-    
-
+        cout <<mx<<endl;   
+    }
+}
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-
     solve();
     return 0;
 }
