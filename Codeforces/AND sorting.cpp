@@ -14,19 +14,17 @@ void solve(){
         for(int i=0;i<n;++i){
             if(a[i]!=i){
                 if(ans==-1)
-                  ans=a[i];
-                else
-                 ans&=a[i];
+                   ans=a[i];
+                else 
+                    ans&=a[i];
             }
-                
-            }
-            cout<<ans<<endl;
         }
-
+        cout<<ans<<endl;
 
     }
+    
 
-
+}
 
 int main(){
     ios_base::sync_with_stdio(false);
