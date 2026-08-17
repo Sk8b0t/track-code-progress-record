@@ -8,7 +8,7 @@ void solve(){
     while(t--){
         int n;
         cin>>n;
-        vector<pair<ll,ll>>a(n);
+        vector<pair<ll,int>>a(n);
         for(int i=0;i<n;++i){
             cin>>a[i].first;
             a[i].second=i;
@@ -16,23 +16,23 @@ void solve(){
         sort(a.begin(),a.end());
         vector<ll>pre(n);
         pre[0]=a[0].first;
-        for(int i=1;i<n;++i)
-           pre[i]=a[i].first+pre[i-1];
-
+        for(int i=1;i<n;++i){
+            pre[i]=pre[i-1]+a[i].first;
+        }
         vector<ll>ans(n);
         for(int i=0;i<n;++i){
             int j=i;
             while(j<n){
-                pair<ll,ll>tar={pre[j]+1,INT_MIN};
+                pair<ll,int>tar={pre[j]+1,INT_MIN};
                 ll idx=lower_bound(a.begin(),a.end(),tar)-a.begin();
                 idx--;
-                if(j==idx) break;
+                if(j==idx)break;
                 j=idx;
             }
             ans[a[i].second]=j;
         }
         for(auto &itm:ans) 
-          cout<<itm<<" ";
+           cout<<itm<<" ";
         cout<<"\n";
     }
 
