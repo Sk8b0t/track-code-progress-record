@@ -1,47 +1,41 @@
-#include<bits/stdc++.h>
-using namespace std;
-using ll = long long;
+    #include<bits/stdc++.h>
+    using namespace std;
+    using ll = long long;
 
-void solve(){
-    int t;
-    cin>>t;
-    while(t--){
-        int n;
-        cin>>n;
-        vector<pair<ll,ll>>a(n);
-        for(int i=0;i<n;++i){
-            cin>>a[i].first;
-            a[i].second=i;
+    bool pred(vector<ll>&a,ll mid,ll x){
+        ll tw=0;
+        for(auto &itm:a){
+            tw+=max(0LL,mid-itm);
+            if(tw>x) return false;
         }
-        sort(a.begin(),a.end());
-        vector<ll>pre(n);
-        pre[0]=a[0].first;
-        for(int i=1;i<n;++i)
-           pre[i]=a[i].first+pre[i-1];
-
-        vector<ll>ans(n);
-        for(int i=0;i<n;++i){
-            int j=i;
-            while(j<n){
-                pair<ll,ll>tar={pre[j]+1,INT_MIN};
-                ll idx=lower_bound(a.begin(),a.end(),tar)-a.begin();
-                idx--;
-                if(j==idx) break;
-                j=idx;
-            }
-            ans[a[i].second]=j;
-        }
-        for(auto &itm:ans) 
-          cout<<itm<<" ";
-        cout<<"\n";
+        return (tw<=x);
     }
 
-}
+    void solve(){
+        int t;
+        cin>>t;
+        while(t--){
+            ll n,x;
+            cin>>n>>x;
+            vector<ll>a(n);
+            for(auto &itm:a) cin>>itm;
+            ll l=1,r=2e9+9,mid;
+            while(r>=l){
+                mid=(r+l)/2;
+                if(pred(a,mid,x))
+                    l=mid+1;
+                else
+                r=mid-1;
+            }
+            cout<<r<<endl;
+        }
 
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    }
 
-    solve();
-    return 0;
-}
+    int main(){
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+
+        solve();
+        return 0;
+    }
