@@ -15,11 +15,11 @@ void solve(){
         for(auto &itm:b)cin>>itm;
         sort(a.rbegin(),a.rend());
         sort(b.rbegin(),b.rend());
-
-        ll ans=1,cnt=0;
         int l=0,r=0;
+        ll cnt=0;
+        ll ans=1;
         while(r<n){
-            if(l<n &&a[l]>b[r]){
+            if(l<n && b[r]<a[l]){
                 cnt++;
                 l++;
             }
@@ -29,9 +29,9 @@ void solve(){
                 r++;
             }
         }
-        cout<<ans<<endl;
-    }
+        cout <<ans<<endl;
 
+}
 }
 
 int main(){
