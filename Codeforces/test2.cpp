@@ -1,43 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
-const int M=1e9+7;
 
 void solve(){
-    int t;
-    cin>>t;
-    while(t--){
-        int n;
-        cin>>n;
-        vector<ll>a(n);
-        vector<ll>b(n);
-        for(auto &itm:a)cin>>itm;
-        for(auto &itm:b)cin>>itm;
-        sort(a.rbegin(),a.rend());
-        sort(b.rbegin(),b.rend());
-
-        ll ans=1,cnt=0;
-        int l=0,r=0;
-        while(r<n){
-            if(l<n &&a[l]>b[r]){
-                cnt++;
-                l++;
-            }
-            else{
-                ans=(ans*cnt)%M;
-                cnt--;
-                r++;
-            }
-        }
-        cout<<ans<<endl;
-    }
-
+	int t;
+	cin>>t;
+	while(t--){
+		int n;
+		cin>>n;
+		vector<int>a(n);
+		for(auto &itm:a) cin>>itm;
+		if(a[0]==1) cout<<"YES\n";
+	    else cout<<"NO\n";
+		
+	}
+    
 }
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-
     solve();
     return 0;
 }
