@@ -17,6 +17,18 @@ class CircularLinkedList:
         temp.prev=t
         t.next=temp
 
+    def insertAtBeg(self,data):
+        t=self.head 
+        t1=self.head 
+        if(t==None):
+            self.head=temp
+        temp=node(data)
+        while(t1.next!=self.head):
+            t1=t1.next
+        temp.next=t.next
+        temp.prev=t1
+        self.head=temp
+
     def insertInBetween(self,data,x):
         t=self.head
         temp=node(data)
